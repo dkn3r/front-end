@@ -1,0 +1,513 @@
+body {
+  background-color: #0E0E0F;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 200%;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 55px;
+  padding-right: 55px;
+  padding-top: 37px;
+  max-width: 1520px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-weight: 800;
+  font-size: 29px;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background-color: #FA9021;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.nav-item + .nav-item {
+  margin-left: 88px;
+}
+
+.nav-item:last-child {
+  margin-left: 37px;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+  transition: ease-out .3s all;
+}
+
+.nav-item a:hover {
+  color: #FA9021;
+}
+
+.btn-primary {
+  background-color: #FA9021;
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 13px;
+  border: none;
+  padding: 10px 28px;
+}
+
+/* Button */
+
+.btn-primary:hover {
+  color: #fff !important;
+  background-color: #f6711d;
+}
+
+.btn-round {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  background: linear-gradient(92.89deg, rgba(255, 61, 0, 0.8) -6.75%, rgba(251, 158, 60, 0.8) 96.44%);
+  border-radius: 40px;
+}
+
+.minor-btn{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 20px;
+  padding: 10px 30px;
+  margin: 70px 0px 100px 0px;
+  color: #fff;
+  background-color: #2a231d;
+  border-radius: 10px;
+}
+.minor-btn:hover{
+  border: solid #fff .1px;
+}
+.last-btn{
+  position: relative;
+  font-size: 20px;
+  padding: 8px 18px;
+  margin: 5px;
+  color: #fff;
+  background-color: #DC7000 !important;
+  border-radius: 10px;
+
+}
+.last-btn:hover{
+  background-color: #B96713 !important;
+}
+/* Hero unit */
+
+section.hero-unit img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 53%;
+  max-width: 929px;
+  z-index: -1;
+}
+
+section.hero-unit .pre-header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 155.2%;
+  color: #E87D0E;
+}
+
+section.hero-unit h1 {
+  max-width: 400px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 155.2%;
+  margin-bottom: 26px;
+}
+
+section.hero-unit p {
+  max-width: 512px;
+}
+
+section.hero-unit .btn {
+  margin-top: 50px;
+}
+
+section.hero-unit .row {
+  margin-top: 45px;
+}
+.ctg-items{
+  margin-top: 300px;
+}
+.ctg-text{
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.ctg-img{
+  margin-top: 55px;
+}
+
+section.ctg-items .ctgphoto{
+  text-align: center;
+}
+.ctg-undertext{
+  display: flex;
+  justify-content: space-around;
+}
+section.ctg-items img {
+  max-height: 250px;
+  margin-bottom: 27px;
+}
+.ctg-fire::after{
+  content: "40 followers";
+}
+@media (min-width: 1500px) {
+  section.ctg-items .ctg-fire + .ctg-fire {
+    margin-left: 100px;
+  }
+}
+@media (min-width: 1500px) {
+  section.ctg-items .ctg-img + .ctg-img {
+    margin-left: 50px;
+  }
+}
+
+.spiderman{
+  margin-top: 100px;
+}
+section.spiderman .spiderman-main-text{
+  text-align: center;
+  margin: auto;
+  max-width: 700px;
+}
+.spiderman-minor-text{
+  margin-top: 100px;
+}
+section.spiderman .spd-p-text{
+  margin-top: 50px;
+  max-width: 550px;
+}
+section.spiderman .spd-img{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  max-width: 1500px;
+}
+section.categories {
+  margin-top: 157px;
+  margin-bottom: 141px;
+  padding: 92px 0;
+  background-image: url('./images/categories-bg.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section.categories .headline h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 187.5%;
+  margin-bottom: 25px;
+}
+
+section.categories .cards {
+  margin-top: 99px;
+}
+
+section.categories .category-item {
+  margin-bottom: 62px;
+  text-align: center;
+}
+
+section.categories .category-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section.categories .category-item {
+  margin-bottom: 62px;
+}
+
+section.categories .category-item p {
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+section.categories .category-item .arrow {
+  transition: .4s ease-out all;
+}
+
+section.categories .category-item a:hover .arrow {
+  transform: translateX(15px);
+}
+
+section.projects .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+section.projects .headlineProjects{
+  margin: 140px 0px 70px 0px;
+}
+
+section.projects img {
+  max-height: 243px;
+  margin-bottom: 27px;
+}
+
+@media (min-width: 1400px) {
+  section.projects img + img {
+    margin-left: 27px;
+  }
+
+  section.projects img:nth-child(4) {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1399px) {
+  section.projects img {
+    max-width: 30%;
+    margin-left: 20px;
+  }
+}
+.email {
+  display: flex;
+  width: 1270px;
+  height: 200px;
+  background: #1C140F;
+  border-radius: 15px;
+  margin-left: 16%;
+  margin-top: 5%;
+}
+
+.email {
+  padding-left: 56px;
+  padding-top: 40px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.enail {
+  width: 500px;
+  height: 52px;
+  margin-top: 2%;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+
+  color: #FFFFFF;
+}
+
+.inputBox input {
+  border: solid 1px black;
+  border-radius: 8px;
+  outline: none;
+  color: #0E0E0F;
+  width: 385.68px;
+  height: 48px;
+  margin-top: 10%;
+  margin-left: 73%;
+
+}
+
+
+.cont {
+  position: absolute;
+  background: #DC7000 !important;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 13px;
+  border: none;
+  padding: 10px 28px;
+  margin-top: 2.3%;
+  margin-left: 28.7%;
+  color: #0E0E0F;
+}
+.footlogo {
+  display: flex;
+  width: 1920px;
+  height: 356px;
+  background: #070707;
+  margin-top: 10%;
+  border-bottom: solid white 1px;
+
+}
+
+.footlogo h2 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 29px;
+  margin-bottom: 5%;
+}
+
+.footertxt {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.footlogo p {
+  width: 60%;
+}
+
+.footlogo .log {
+  margin-top: 8%;
+}
+
+.footeraboutus {
+  margin-top: 6%;
+}
+
+.footeraboutus .zeux {
+  width: 100px;
+}
+
+.contactus {
+  margin-top: 6%;
+  margin-left: 10%;
+}
+
+.contactus .upnumber {
+  width: 48%;
+}
+
+.contactus .phonnumber {
+  margin-top: -2.5%;
+}
+
+.facebook {
+  margin-left: 70%;
+  margin-top: -10%;
+}
+
+.insta {
+  margin-left: 78%;
+  margin-top: -10.4%;
+}
+
+.twit {
+  margin-left: 86%;
+  margin-top: -10.4%;
+}
+
+.in {
+  margin-left: 94%;
+  margin-top: -10.4%;
+}
+
+.noga {
+  width: 1920px;
+  height: 50px;
+  background: #070707;
+  padding-top: 10px;
+}
+
+/* Responsive styles */
+
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  .navbar {
+    padding: 15px;
+    width: 85%;
+  }
+
+  .nav-item + .nav-item {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .navbar-nav {
+    align-items: flex-start;
+  }
+  
+
+  section.hero-unit img {
+    right: auto;
+    left: auto;
+    position: relative;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  section.ctg-items .ctg-text{
+    width: 300px;
+  }
+  section.hero-unit .row {
+    margin-top: 0;
+    flex-direction: column-reverse !important;
+    width: 70%;
+  }
+
+  section.hero-unit h1 {
+    font-size: 24px;
+    line-height: 155.2%;
+    margin-bottom: 26px;
+  }
+
+  section.hero-unit .btn {
+    margin-top: 15px;
+    font-size: 10px;
+  }
+  section.ctgItems h2{
+    font-size: 20px;
+    width: 200px;
+    margin-right: 0px;
+  }
+  section.ctgItems a{
+    font-size: 14px;  
+  }
+
+  section.spiderman .spd-img{
+    width: 2%;
+  }
+
+  section.projects img {
+    max-height: auto;
+    max-width: 46%;
+    margin-left: 0;
+    margin: 5px;
+  }
+
+  section.preFooter .email{
+    height: 230px;
+    margin-left: 7%;
+    width: 75%;
+    display: inline-block;
+  }
+  section.preFooter .stay{
+    font-size: 18px;
+    width: 300px;
+  }
+  section.preFooter .enail{
+    font-size: 11px;
+  }
+  section.preFooter .inputBox{
+    width: 10%;
+    margin-top: 0px;
+  }
+  section.preFooter .cont{
+    margin-left: 39.5%;
+    margin-top: 1.3%;
+  }
+  section.footer .footertxt .h2{
+    font-size: 10px;
+
+  }
+  section.footer .footerImages{
+    
+  }
+}

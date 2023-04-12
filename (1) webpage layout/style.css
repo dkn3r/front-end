@@ -157,6 +157,9 @@ section.hero-unit .row {
 section.ctg-items .ctgphoto{
   text-align: center;
 }
+.ctgphoto img + img{
+  margin-left: 6.5%;
+}
 .ctg-undertext{
   display: flex;
   justify-content: space-around;
@@ -277,13 +280,19 @@ section.projects img {
     margin-left: 20px;
   }
 }
+
+section.preFooter .footer h2{
+    width: 100%;
+}
+
+
 .email {
   display: flex;
   width: 1270px;
   height: 200px;
   background: #1C140F;
   border-radius: 15px;
-  margin-left: 16%;
+
   margin-top: 5%;
 }
 
@@ -332,10 +341,12 @@ section.projects img {
   font-size: 13px;
   border: none;
   padding: 10px 28px;
-  margin-top: 2.3%;
-  margin-left: 28.7%;
+  margin-top: 2.85%;
+  margin-left: 36%;
   color: #0E0E0F;
 }
+
+
 .footlogo {
   display: flex;
   width: 1920px;
@@ -366,11 +377,11 @@ section.projects img {
   margin-top: 8%;
 }
 
-.footeraboutus {
+.aboutus {
   margin-top: 6%;
 }
 
-.footeraboutus .zeux {
+.aboutus .zeux {
   width: 100px;
 }
 
@@ -406,14 +417,6 @@ section.projects img {
   margin-left: 94%;
   margin-top: -10.4%;
 }
-
-.noga {
-  width: 1920px;
-  height: 50px;
-  background: #070707;
-  padding-top: 10px;
-}
-
 /* Responsive styles */
 
 @media (max-width: 767px) {
